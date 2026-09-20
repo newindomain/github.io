@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" manifest="cache.appcache">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GEN Z STORE • PS4</title>
+<style>
+  html, body { margin:0; padding:0; min-height:100%; background:#0b0d10;
+               color:#c8ced8; font:15px/1.45 "Segoe UI", system-ui, sans-serif; }
+  body { background:#0b0d10 url("images/background.jpg") center center / cover no-repeat fixed; }
+  #wrap { padding:16px 18px; }
+  #state { font-size:22px; font-weight:700; margin:0 0 6px; }
+  #det { font-size:13px; color:#8b95a3; margin:0 0 4px; }
+  #det b { color:#c8ced8; font-weight:600; }
+  #cache { font-size:12px; color:#5c6672; margin:0 0 10px; min-height:14px; }
+  #cache.cacheok { color:#7fd0a0; }
+  .ok { color:#7fd0a0; } .bad { color:#d08a7f; } .warn { color:#d8c07f; }
+  #brand { text-align:center; padding:9px 10px; background:rgba(14,17,22,.88);
+           border-bottom:1px solid #1e2732; }
+  #brand b { font-size:16px; font-weight:700; letter-spacing:.14em;
+             color:#e6ebf2; }
+  #brand span { display:block; margin-top:2px; font-size:11px; letter-spacing:.08em;
+                color:#8b95a3; }
+</style>
+</head>
+<body>
+<div id="brand"><b>GEN Z STORE • PS4</b><span>WEBKIT JAILBREAK</span></div>
+<div id="spin"></div>
+<div id="msg">Restart your console</div>
+<div id="wrap">
+  <div id="state"></div>
+  <div id="out"></div>
+</div>
+<script type="module">
+  import "./jb.js?v=10";
+</script>
+</body>
+</html>
